@@ -1,0 +1,36 @@
+# --- Python Standard ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+
+# --- Project Assets (Downloaded by setup.py) ---
+# We ignore these because they are large and reproducible via the setup script
+pretrained_models/
+editing_directions/
+shape_predictor_68_face_landmarks.dat
+shape_predictor_68_face_landmarks.dat.bz2
+
+# --- External Repositories ---
+# Since setup.py clones this, we don't want to track it as part of our source
+encoder4editing/
+
+# --- Outputs ---
+# Don't commit generated result images
+*.png
+*.jpg
+results/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+*.ipynb_checkpoints

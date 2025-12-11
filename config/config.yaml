@@ -1,0 +1,17 @@
+paths:
+  repo_dir: "encoder4editing"
+  ckpt_path: "pretrained_models/e4e_ffhq_encode.pt"
+  boundary_dir: "editing_directions"
+  dlib_shape_predictor: "shape_predictor_68_face_landmarks.dat"
+
+urls:
+  repo: "https://github.com/omertov/encoder4editing.git"
+  ckpt: "https://huggingface.co/AIRI-Institute/HairFastGAN/resolve/main/pretrained_models/encoder4editing/e4e_ffhq_encode.pt"
+  dlib: "http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2"
+  boundaries: "https://github.com/genforce/interfacegan/raw/master/boundaries"
+
+boundaries:
+  age: "stylegan_ffhq_age_w_boundary.npy"
+  smile: "stylegan_ffhq_smile_w_boundary.npy"
+  pose: "stylegan_ffhq_pose_w_boundary.npy"
+  gender: "stylegan_ffhq_gender_w_boundary.npy"
