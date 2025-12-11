@@ -46,3 +46,4 @@ face-editor/
 ### Prerequisites
 * Python 3.8+
 * GPU recommended (CUDA)
+* Ninja: Required for compiling C++ extensions on the fly.
