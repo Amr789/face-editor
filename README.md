@@ -5,7 +5,7 @@
 
 # Face Editor (GAN Inversion & Editing)
 
-A modular pipeline for semantic face editing using GAN Inversion (e4e) and Latent Space Manipulation. 
+A pipeline for semantic face editing using GAN Inversion (e4e) and Latent Space Manipulation. 
 This project allows for modifying facial attributes (Age, Smile, Pose) of any input image while preserving identity.
 
 
@@ -39,3 +39,10 @@ face-editor/
 ├── setup.py              # Script to download weights and clone sub-modules
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
+```
+
+## Installation
+
+### Prerequisites
+* Python 3.8+
+* GPU recommended (CUDA)
